@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #195073;
+}
+
+.body {
+  font-family: "Reenie Beanie", sans-serif;
+}
+
+.logo {
+  padding-top: 2em;
+  text-align: center;
+  color: #F2BE5C;
+}
+
+.message {
+  margin: 1em 0;
+  padding: 1em;
+  background-color: white;
+  text-align: center;
+}
+
+.hbd-message {
+  background-color: white;
+  margin-bottom: 0.25em;
+}
+
+.lets-party {
+  font-size: 1.25em;
+  background-color: white;
+}
+
+.itinerary-section {
+  font-family: "agdasima";
+  color: white;
+  border-radius: 10px;
+  margin: 0.5em;
+}
+
+.itinerary-title {
+  color: #F2BE5C;
+  padding-left: 0.5em;
+}
+
+.date {
+  padding: 1em 0 0.5em 0;
+  font-weight: 700;
+  color: #F2BE5C;
+}
+
+.timeline-note {
+  padding: 0.25em;
+  font-style: italic;
+}
+
+ul {
+  height: 15em;
+  padding: 0 1em;
+  margin: 1em 0;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 1em;
+}
+
+li {
+  list-style-type: none;
+  padding: 0.5em;
+}
+
+li i {
+  padding-right: 0.5em;
+  color: #F2BE5C;
+}
+
+.item-title {
+  font-weight: 700;
+}/*# sourceMappingURL=styles.css.map */
