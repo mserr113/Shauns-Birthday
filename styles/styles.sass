@@ -1,11 +1,10 @@
 * 
   margin: 0
   padding: 0
-  background-color: #195073
-
 
 .body
   font-family: "Reenie Beanie", sans-serif
+  background-color: #195073
 
 .logo
     padding-top: 2em
@@ -26,15 +25,16 @@
     font-size: 1.25em
     background-color: white
 
-.itinerary-section
+.section
     font-family: "agdasima"
     color: white
     border-radius: 10px
-    margin: .5em
+    padding: 1.5em 0
 
-.itinerary-title
+.section-title
     color: #F2BE5C
     padding-left: .5em
+    padding-bottom: 1em
 
 .date
     padding: 1em 0 .5em 0
@@ -42,16 +42,34 @@
     color: #F2BE5C
 
 .timeline-note
-    padding: .25em
-    font-style: italic
+    padding-top: 1em    
 
-ul
+.section-details
     height: 15em
     padding: 0 1em
-    margin: 1em 0
+    margin: 0 0 1em 0
     border-style: solid
+    border-color: #1d5b83
     border-width: 1px
-    border-radius: 1em
+    background-color: #1d5b83
+
+.travel-and-accommodations
+    padding: .8em 1em
+    position: relative
+    &::before
+        content: ''
+        position: absolute
+        top: 0px
+        bottom: 0px
+        left: 0px
+        right: 0px
+        background-image: url("../images/nashville.jpg")
+        background-size: cover
+        background-position: 0% 25%
+        height: 9em
+        opacity: .2
+        border-radius: 15px
+        margin: 0 .5em
 
 li
     list-style-type: none
@@ -63,3 +81,11 @@ li i
 
 .item-title
     font-weight: 700
+
+@media (min-width: 660px)
+    .section-block
+        display: flex
+        column-gap: 1em
+    .day
+        width: 50%
+        

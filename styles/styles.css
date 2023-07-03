@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #195073;
 }
 
 .body {
   font-family: "Reenie Beanie", sans-serif;
+  background-color: #195073;
 }
 
 .logo {
@@ -31,16 +31,17 @@
   background-color: white;
 }
 
-.itinerary-section {
+.section {
   font-family: "agdasima";
   color: white;
   border-radius: 10px;
-  margin: 0.5em;
+  padding: 1.5em 0;
 }
 
-.itinerary-title {
+.section-title {
   color: #F2BE5C;
   padding-left: 0.5em;
+  padding-bottom: 1em;
 }
 
 .date {
@@ -50,17 +51,37 @@
 }
 
 .timeline-note {
-  padding: 0.25em;
-  font-style: italic;
+  padding-top: 1em;
 }
 
-ul {
+.section-details {
   height: 15em;
   padding: 0 1em;
-  margin: 1em 0;
+  margin: 0 0 1em 0;
   border-style: solid;
+  border-color: #1d5b83;
   border-width: 1px;
-  border-radius: 1em;
+  background-color: #1d5b83;
+}
+
+.travel-and-accommodations {
+  padding: 0.8em 1em;
+  position: relative;
+}
+.travel-and-accommodations::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-image: url("../images/nashville.jpg");
+  background-size: cover;
+  background-position: 0% 25%;
+  height: 9em;
+  opacity: 0.2;
+  border-radius: 15px;
+  margin: 0 0.5em;
 }
 
 li {
@@ -75,4 +96,15 @@ li i {
 
 .item-title {
   font-weight: 700;
+}
+
+@media (min-width: 660px) {
+  .section-block {
+    display: flex;
+    -moz-column-gap: 1em;
+         column-gap: 1em;
+  }
+  .day {
+    width: 50%;
+  }
 }/*# sourceMappingURL=styles.css.map */
