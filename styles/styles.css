@@ -5,20 +5,21 @@
 
 .body {
   font-family: "Reenie Beanie", sans-serif;
+}
+
+.logo-container {
+  padding: 1em 0 0.8em 0;
+  text-align: center;
+  color: #F2BE5C;
   background-color: #195073;
 }
 
-.logo {
-  padding-top: 2em;
-  text-align: center;
-  color: #F2BE5C;
-}
-
 .message {
-  margin: 1em 0;
-  padding: 1em;
   background-color: white;
+  padding-bottom: 1em;
   text-align: center;
+  border-bottom: solid;
+  border-color: #F2BE5C;
 }
 
 .hbd-message {
@@ -31,17 +32,23 @@
   background-color: white;
 }
 
+.party-page {
+  background-color: #195073;
+}
+
 .section {
   font-family: "agdasima";
   color: white;
-  border-radius: 10px;
-  padding: 1.5em 0;
+  padding-top: 2em;
+}
+
+.travel-section-content {
+  background-color: #195073;
 }
 
 .section-title {
   color: #F2BE5C;
   padding-left: 0.5em;
-  padding-bottom: 1em;
 }
 
 .date {
@@ -51,42 +58,24 @@
 }
 
 .timeline-note {
-  padding-top: 1em;
+  padding-top: 0.5em;
+  padding-left: 1em;
 }
 
 .section-details {
-  height: 15em;
+  height: 12em;
   padding: 0 1em;
-  margin: 0 0 1em 0;
-  border-style: solid;
-  border-color: #1d5b83;
+  margin: 1em;
+  border-style: groove;
+  border-color: #1E5688;
   border-width: 1px;
-  background-color: #1d5b83;
-}
-
-.travel-and-accommodations {
-  padding: 0.8em 1em;
-  position: relative;
-}
-.travel-and-accommodations::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  background-image: url("../images/nashville.jpg");
-  background-size: cover;
-  background-position: 0% 25%;
-  height: 9em;
-  opacity: 0.2;
+  background-color: #1E5F88;
   border-radius: 15px;
-  margin: 0 0.5em;
 }
 
 li {
   list-style-type: none;
-  padding: 0.5em;
+  padding: 0.5em 0em;
 }
 
 li i {
@@ -96,6 +85,13 @@ li i {
 
 .item-title {
   font-weight: 700;
+}
+
+.menu-link {
+  color: white;
+}
+.menu-link:visited {
+  color: white;
 }
 
 @media (min-width: 660px) {
