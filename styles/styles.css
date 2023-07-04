@@ -10,8 +10,8 @@
 .logo-container {
   padding: 1em 0 0.8em 0;
   text-align: center;
-  color: #F2BE5C;
-  background-color: #195073;
+  color: #D9B310;
+  background-color: #0B3C5D;
 }
 
 .message {
@@ -19,7 +19,7 @@
   padding-bottom: 1em;
   text-align: center;
   border-bottom: solid;
-  border-color: #F2BE5C;
+  border-color: #D9B310;
 }
 
 .hbd-message {
@@ -33,7 +33,7 @@
 }
 
 .party-page {
-  background-color: #195073;
+  background-color: #0B3C5D;
 }
 
 .section {
@@ -43,18 +43,21 @@
 }
 
 .travel-section-content {
-  background-color: #195073;
+  background-color: #0B3C5D;
+  text-align: center;
 }
 
 .section-title {
-  color: #F2BE5C;
+  color: #D9B310;
   padding-left: 0.5em;
+  text-align: center;
 }
 
 .date {
   padding: 1em 0 0.5em 0;
   font-weight: 700;
-  color: #F2BE5C;
+  color: #D9B310;
+  text-align: center;
 }
 
 .timeline-note {
@@ -62,15 +65,20 @@
   padding-left: 1em;
 }
 
+.section-block {
+  text-align: center;
+}
+
 .section-details {
   height: 12em;
+  width: 70%;
   padding: 0 1em;
   margin: 1em;
   border-style: groove;
-  border-color: #1E5688;
   border-width: 1px;
-  background-color: #1E5F88;
   border-radius: 15px;
+  display: inline-block;
+  text-align: left;
 }
 
 li {
@@ -80,7 +88,7 @@ li {
 
 li i {
   padding-right: 0.5em;
-  color: #F2BE5C;
+  color: #D9B310;
 }
 
 .item-title {
