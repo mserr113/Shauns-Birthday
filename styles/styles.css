@@ -39,7 +39,7 @@
 .section {
   font-family: "agdasima";
   color: white;
-  padding-top: 2em;
+  padding: 2em 0;
 }
 
 .travel-section-content {
@@ -70,10 +70,10 @@
 }
 
 .section-details {
-  height: 12em;
+  height: 15em;
   width: 70%;
   padding: 0 1em;
-  margin: 1em;
+  margin: 1em 0 0 0;
   border-style: groove;
   border-width: 1px;
   border-radius: 15px;
